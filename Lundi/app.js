@@ -25,4 +25,4 @@ app.use("/crews", routes.crews)
 app.get("/", (req, res) => {
 	res.status(200).send("je suis dans le /")
 })
-app.listen(4242, console.log(`http://localhost:4242`))
+app.listen(4040, console.log(`http://localhost:4040`))
