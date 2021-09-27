@@ -20,6 +20,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.use("/boats", routes.boats)
+app.use("/crews", routes.crews)
 
 app.get("/", (req, res) => {
 	res.status(200).send("je suis dans le /")
